@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import 'variables';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:$primaryColor;
+    color: aliceblue;
+ 
+}
+.navbar-custom {
+    background-color: #6A0DAD; /* Adjust to match the purple shade */
+}
+.navbar-brand, .nav-link, .btn {
+    color: white !important;
+}
+.btn-partner {
+    border: 1px solid white;
+    color: white;
+}
+.btn-partner:hover {
+    background-color: white;
+    color: #6A0DAD;
+}
