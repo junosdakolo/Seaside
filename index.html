@@ -10,18 +10,18 @@
 
 <!-- Header Section -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-secondary ">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark ">
   <div class="container">
-    <h3>SEASIDE</h3>
+    <h3 class="logo text-light">SEASIDE</h3>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item "><a class="nav-link text-warning " href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="#">Menu</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="#">About Us</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -30,12 +30,10 @@
 <!-- Hero Section -->
  
 <section class="bg-dark text-white text-center py-5" style="background-image: url('res/Burgerking/jason-leung-poI7DelFiVA-unsplash.jpg'); background-size: cover;">
-  <h1 class="display-4">Welcome to SEASIDE</h1>
+  <h1 class="display-4 fst-italic fw-bold">Welcome to SEASIDE</h1>
   <p><a href="#" class="btn btn-primary btn-lg">Make your Reservation</a></p>
 </section>
-
-<!-- Menu Section -->
-<section class="container py-5">
+  </div>
   <h2 class="text-center mb-4">Our Menu</h2>
   <div class="row">
     <div class="col">
@@ -43,7 +41,7 @@
         <img src="res/Burgerking/Sushi.jpg" class="card-img-top" alt="Dish 1">
         <div class="card-body">
           <h5 class="card-title">STARTERS</h5>
-          <p class="card-text"><a href="#">View Menu</a></p>
+          <p class="card-text"><a href="#" class="text-decoration-none link-dark link-opacity-100-hover">View Menu</a></p>
         </div>
       </div>
     </div>
@@ -52,7 +50,8 @@
         <img src="res/Burgerking/home-left-meni-img-3-768x768.jpg" class="card-img-top" alt="Dish 1">
         <div class="card-body">
           <h5 class="card-title">MAIN COURSES</h5>
-          <p class="card-text"><a href="#">View Menu</a></p>
+          <p class="card-text"><a href="#" class="text-decoration-none link-dark">View Menu</a></p>
+          
         </div>
       </div>
     </div>
@@ -61,7 +60,7 @@
         <img src="res/Burgerking/home-left-meni-img-4-768x768.jpg" class="card-img-top" alt="Dish 1">
         <div class="card-body">
           <h5 class="card-title">DESSERTS</h5>
-          <p class="card-text"><a href="#">View Menu</a></p>
+          <p class="card-text"><a href="#" class="text-decoration-none link-dark">View Menu</a></p>
         </div>
       </div>
     </div>
@@ -70,7 +69,7 @@
         <img src="res/Burgerking/home-left-meni-img-2-768x768.jpg" class="card-img-top" alt="Dish 1">
         <div class="card-body">
           <h5 class="card-title">DRINKS</h5>
-          <p class="card-text"><a href="#">View Menu</a></p>
+          <p class="card-text"><a href="#" class="text-decoration-none link-dark">View Menu</a></p>
         </div>
       </div>
     </div>
@@ -93,8 +92,8 @@
 </section>
 
 <!-- Contact Section -->
-<div class="container">
-  <h2>Book a Table</h2>
+<div class="container-fluid p-3">
+  <h2 class="boot-text text-center " >Book a Table</h2>
   <form class="row">
           <div class="col">
             <select class="form-select" aria-label="Default select example">
@@ -127,13 +126,12 @@
 
 
 <!-- Footer -->
-<footer class="container-fluid bg-dark text-white ">
+<footer class="container-fluid bg-dark text-white text-center p-2 ">
   <div class="col">
     <h3>SEASIDE</h3>
-    <p>Seaside Resturant & Fine dining, <a href="#">Lekki, Lagos state</a></p>
-    <p><a href="#">reservation@seaside.com</a>, <a href="#">+234(0)8000800</a></p>
-    <p>Open: 09:00 am - 01:00 am</p>
-
+    <p class="text-dark-emphasis">Seaside Resturant & Fine dining, <a href="#" class="text-decoration-none link-light">Lekki, Lagos state</a></p>
+    <p class="text-success-emphasis"><a  href="#" class="text-decoration-none link-light">reservation@seaside.com</a>, <a href="#" class="text-decoration-none link-light">+234(0) 800 0800</a></p>
+    <p class="text-success-emphasis ">Open: 09:00 am - 01:00 am</p>
   </div>
 
    <div class="col">
@@ -143,9 +141,6 @@
     <a href="#"><i class="fab fa-twitter"></i></a>
     <a href="#"><i class="fab fa-youtube"></i></a>
   </div>
-
-  
-
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
